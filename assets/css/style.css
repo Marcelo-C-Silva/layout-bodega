@@ -1,0 +1,168 @@
+header{
+  background-color: #24252a;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 6rem;
+}
+.logo-tipo{
+  display: flex;
+  align-items: center;
+}
+.logo-tipo img{
+  width: 50px;
+  height: 50px;
+}
+.lista{
+  display: flex;
+  align-items: center;
+}
+.lista ul{
+  display: flex;
+  justify-content: center;
+}
+.lista-itens{
+  margin-right: 2rem;
+}
+.lista-link{
+  font-size: 1.15rem;
+  color: #fff;
+  font-weight: 400;
+}
+.login-button button{
+  border: none;
+  background-color: #f8f9fa;
+  color: #24252a;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+.login-button button a{
+  color: #24252a;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.mobile-menu-icon{
+  display: none;
+}
+.menu-mobile{
+  display: none;
+}
+/* Estilos Gerais */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+  margin: 0;
+  padding: 0;
+}
+
+/* Nome do Site */
+.site-name {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.site-name h2 {
+  font-size: 2.5rem;
+  color: #343a40;
+}
+
+.site-name p {
+  font-size: 1.2rem;
+  color: #6c757d;
+}
+
+/* Seção da Equipe */
+.team {
+  padding: 4rem 6rem;
+  text-align: center;
+}
+
+.team h2 {
+  font-size: 2rem;
+  color: #343a40;
+  margin-bottom: 2rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 1rem;
+  width: 18%;
+}
+
+.card img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+/* Sobre o Projeto */
+.about {
+  padding: 4rem 6rem;
+  background-color: #e9ecef;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2rem;
+  color: #343a40;
+  margin-bottom: 2rem;
+}
+
+.about p {
+  font-size: 1.2rem;
+  color: #6c757d;
+}
+
+/* Rodapé */
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 2rem 0;
+  text-align: center;
+  margin-top: 2.2rem;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

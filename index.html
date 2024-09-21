@@ -1,29 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- minify -->
-<link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
-<!-- latest -->
-<link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
-<!-- core style only -->
-<link href="https://unpkg.com/nes.css/css/nes-core.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
-  <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
-</head>
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/responsive.css">
+  <link href="https://unpkg.com/nes.icons@latest/css/nes-icons.min.css" rel="stylesheet" />
   <title>Document</title>
 </head>
+
 <body>
-  <nav>
-    <label class="logo-tipo"><img src="./cangaceiro_rezador_preview" alt=""></label>
+  <header>
+    <nav class="menu">
+      <div class="logo-tipo">
+        <img src="./assets/img/cangaceiro_rezador_preview" alt="">
+      </div>
+      <div class="lista">
+        <ul>
+          <li class="lista-itens"><a href="#" class="lista-link">inicio</a></li>
+          <li class="lista-itens"><a href="#" class="lista-link">envolvidos</a></li>
+          <li class="lista-itens"><a href="#" class="lista-link">sobre</a></li>
+          <li class="lista-itens"><a href="#" class="lista-link">Fork</a></li>
+        </ul>
+      </div>
+      <div class="login-button">
+        <button><a href="#">Login</a></button>
+      </div>
+      <div class="mobile-menu-icon">
+        <button onclick="menu_show()">
+          <i class="nes-icon bars"></i>
+        </button>
+      </div>
+    </nav>
+    <div class="menu-mobile">
       <ul>
-        <li><a class="ativado" href="#" target="_blank">Home</a></li>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Envolvidos</a></li>
+        <li class="lista-itens"><a href="#" class="lista-link">inicio</a></li>
+        <li class="lista-itens"><a href="#" class="lista-link">envolvidos</a></li>
+        <li class="lista-itens"><a href="#" class="lista-link">sobre</a></li>
+        <li class="lista-itens"><a href="#" class="lista-link">Fork</a></li>
       </ul>
-    <label for=""></label>
-  </nav>
+      <div class="login-button">
+        <button><a href="#">Login</a></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Nome do Site -->
+  <section class="site-name">
+    <h2>Nome do Site</h2>
+    <p>Subtítulo ou slogan do site.</p>
+  </section>
+
+  <!-- Cards da Equipe -->
+  <section class="team">
+    <h2>Conheça a Equipe</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="link-da-imagem" alt="Integrante 1">
+        <h3>Nome Integrante 1</h3>
+        <a href="https://github.com/integrante1" target="_blank">GitHub</a>
+      </div>
+      <div class="card">
+        <img src="link-da-imagem" alt="Integrante 2">
+        <h3>Nome Integrante 2</h3>
+        <a href="https://github.com/integrante2" target="_blank">GitHub</a>
+      </div>
+      <div class="card">
+        <img src="link-da-imagem" alt="Integrante 3">
+        <h3>Nome Integrante 3</h3>
+        <a href="https://github.com/integrante3" target="_blank">GitHub</a>
+      </div>
+      <div class="card">
+        <img src="./assets/img/108343702.jpeg" alt="Integrante 4">
+        <h3>Marcelo</h3>
+        <a href="https://github.com/integrante4" target="_blank">GitHub</a>
+      </div>
+      <div class="card">
+        <img src="link-da-imagem" alt="Integrante 5">
+        <h3>Nome Integrante 5</h3>
+        <a href="https://github.com/integrante5" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section class="about">
+    <h2>Sobre o Projeto</h2>
+    <p>Aqui você pode descrever o objetivo do projeto, as tecnologias usadas e a importância dele para a equipe.</p>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <p>Esse projeto é open-source. <a href="link-do-fork" target="_blank">Faça um Fork!</a></p>
+  </footer>
+
+  <script src="/assets/js/script.js"></script>
 </body>
+
 </html>
