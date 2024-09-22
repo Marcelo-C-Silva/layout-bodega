@@ -1,5 +1,5 @@
 header{
-  background-color: #2A2438;
+  background-color: #2a2438c4;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 nav{
@@ -71,7 +71,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   color: #fff; /* Para garantir que o texto seja legível */
-  padding: 4rem 2rem; /* Ajuste conforme necessário */
+  padding: 21rem 2rem;
   text-align: center;
 }
 
